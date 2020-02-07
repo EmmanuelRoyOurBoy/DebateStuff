@@ -1,7 +1,5 @@
 import time
-
-now = time.time()
-future = now + 10
-while time.time() < future:
-    # do stuff
-    pass
+SecondCounter = int(input("How many seconds do you want to count donw from? ")
+for i in range(SecondCounter):
+    print(str(SecondCounter-i) + " seconds remain")
+    time.sleep(1)
